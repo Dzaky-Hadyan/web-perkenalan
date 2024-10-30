@@ -85,6 +85,7 @@
         </h3>
         <img src="wonderhoy.jpg" id="wonderhoy">
         <button type="button" onclick="fungsi()" id="tombol">Click Me!</button>
+        <audio id="audio" src="wonderhoy-made-with-Voicemod.mp3"></audio>
     </div>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In officia repellat rerum asperiores dolores, magnam libero officiis assumenda molestias id laboriosam incidunt iste provident consectetur quibusdam aliquid nesciunt alias iure.</p>
     <p>Voluptatem adipisci animi inventore eligendi quae, eos cupiditate commodi minima nulla quia. Illo, libero id fugit quod sapiente eveniet sed, possimus provident inventore quos totam, est dolor ratione deserunt quibusdam!</p>
@@ -95,6 +96,8 @@
         function fungsi() {
             document.getElementById('wonderhoy').style.display = "block";
             document.getElementById('tombol').style.display = "none";
+            var audio = document.getElementById("audio");
+            audio.play();
         }
     </script>
 </body>
