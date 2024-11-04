@@ -1,0 +1,78 @@
+
+        div {
+            border: 10px solid pink;
+            padding: 50px;
+            border-radius: 100px;
+        }
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            background: linear-gradient(to left,
+                    black, pink);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .emu {
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            transition-timing-function: linear;
+            transition-duration: 500ms;
+        }
+        .emu:hover {
+            transform: translate(0px, -325px);
+        }
+        h3 {
+            font-family: 'Courier New';
+            background-color: pink;
+            border-radius: 20px;
+            transition-timing-function: linear;
+            transition-duration: 2s;
+            padding: 1em;
+        }
+        h3:hover {
+            transform: rotateY(360deg);
+        }
+        h4 {
+            font-family: 'Courier New';
+            background-color: pink;
+        }
+        input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            background-color: pink;
+            border-radius: 4px;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+        }
+        input:focus {
+            background-color: white;
+            border: 2px solid magenta;
+        }
+        #tombol {
+            background-color: pink;
+            border-radius: 50px;
+            border-color: white;
+            transition-duration: 1s;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+        #tombol:hover {
+            transform: rotate(25deg);
+            background-color: aliceblue;
+        }
+        #wonderhoy {
+            display: none;
+            margin-left: auto;
+            margin-right: auto;
+            animation-name: contoh;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
