@@ -3,5 +3,4 @@ function fungsi() {
     document.getElementById('tombol').style.display = "none";
     var audio = document.getElementById("audio");
     audio.play();
-
 }
