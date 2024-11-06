@@ -1,4 +1,20 @@
-
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            display: flex; /*nggarai horizontal*/
+            background-color: pink;
+            justify-content: space-between;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1em;
+            font-weight: 900;
+            padding: 1em;
+        }
+        nav :hover {
+            color: black;
+        }
         div {
             border: 10px solid pink;
             padding: 50px;
@@ -46,7 +62,7 @@
             background-color: pink;
             border-radius: 4px;
             transition-timing-function: ease-in-out;
-            transition-delay: 1s;
+            transition-delay: 50ms;
         }
         input:focus {
             background-color: white;
