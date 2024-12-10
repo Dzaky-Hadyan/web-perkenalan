@@ -10,11 +10,11 @@
             "dest": "/api/index.php"
         },
         {
-            "src": "/api/style.css",
+            "src": "/style.css",
             "dest": "/api/style.css"
         },
         {
-            "src": "/api/script.js",
+            "src": "/script.js",
             "dest": "/api/script.js"
         }
     ]
