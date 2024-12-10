@@ -1,7 +1,7 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=databasemu;charset=utf8mb4";
-$username = "root";
-$password = "";
+$dsn = "mysql:host=sql12.freesqldatabase.com;dbname=sql12751028;charset=utf8mb4";
+$username = "sql12751028";
+$password = "xzUPiR9gjJ";
 
 try {
     $pdo = new PDO(dsn: $dsn, username: $username, password: $password, options: [
